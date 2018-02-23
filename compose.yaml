@@ -1,0 +1,17 @@
+version: '2.1'
+services:
+
+  mongodb:
+    image: mongo:3.2
+    user: "mongodb"
+
+  #
+  # This can also be "mounted" into the environment:
+  # docker run --network [project]_default local/audit
+  #
+  # audit:
+  #   image: local/audit
+  #
+
+networks:
+  default:

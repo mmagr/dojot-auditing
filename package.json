@@ -1,0 +1,15 @@
+{
+  "name": "dojot.audit",
+  "version": "1.0.0",
+  "description": "Auditing service for dojot",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Matheus Magalhaes",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2"
+  }
+}
